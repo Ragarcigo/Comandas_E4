@@ -13,7 +13,7 @@ public class Main {
         boolean continuar = true;
         //Configuramos el bucle para el menú con todas las opciones
         while (continuar) {
-           String[] opciones = {"MENU 1 15.0€", "MENU 2 17.50€", "MENU 3 20.0€", "MENU 4 22.50€", "MENU 5 25.0€", "Finalizar pedido"};
+           String[] opciones = {"MENU 1 - 15.0€", "MENU 2 - 17.50€", "MENU 3 - 20.0€", "MENU 4 - 22.50€", "MENU 5 - 25.0€", "Finalizar pedido"};
            int opcion = JOptionPane.showOptionDialog(null, "Seleccione un menú", "Menú" ,
                    JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, opciones, opciones[0]);
 
